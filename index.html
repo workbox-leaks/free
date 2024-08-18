@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WorkBox Leaks</title>
+  <meta content="WorkBox Leaks - Disclaimer and links to various leak sources." property="og:title" />
+  <meta content="WorkBox Leaks does not upload or host any content. We are not responsible for the content of any linked sites and provide these links solely for user convenience. Use of these links is at your own risk, and WorkBox Leaks does not endorse or guarantee the accuracy of any content on these sites." property="og:description" />
+  <meta content="workboxleaks.great-site.net" property="og:url" />
+  <meta content="https://cdn.discordapp.com/attachments/889521860759392316/1115691355566518395/workbox2icn-modified.png" property="og:image" />
+  <meta content="#00613A" data-react-helmet="true" name="theme-color" />
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/889521860759392316/1115691355566518395/workbox2icn-modified.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap">
+
+  <style>
+    body {
+      background: linear-gradient(180deg, #004D34 0%, #00613A 50%, #003921 100%);
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans', sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      color: #ffffff;
+    }
+
+    .content {
+      text-align: center;
+      margin-top: 50px;
+      padding: 0 20px;
+    }
+
+    .brand-image {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-bottom: 0;
+      font-family: 'Nunito', sans-serif;
+      color: #00A86B;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-top: 0;
+      font-family: 'Nunito', sans-serif;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+
+    .info-box {
+      background-color: #003B2F;
+      border-radius: 10px;
+      padding: 10px 20px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 14px;
+      max-width: 300px;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .info-box img {
+      margin-right: 10px;
+      width: 40px;
+      height: 40px;
+    }
+
+    .info-box p {
+      margin: 0;
+      font-family: 'Roboto Mono', monospace;
+    }
+
+    .invite-buttons {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .invite-button,
+    .discord-button,
+    .link-button {
+      display: flex;
+      align-items: center;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 12px;
+      margin: 10px 5px;
+      color: #ffffff;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .invite-button.dark {
+      background-color: #004D34;
+    }
+
+    .invite-button.discord,
+    .discord-button {
+      background-color: #004D34;
+      color: #ffffff;
+    }
+
+    .link-button {
+      background-color: #004D34;
+      color: #ffffff;
+    }
+
+    .invite-button img,
+    .discord-button img,
+    .link-button img {
+      margin-right: 10px;
+      width: 18px;
+      height: 18px;
+    }
+
+    .invite-button:hover,
+    .link-button:hover {
+      background-color: #003B2F;
+      transform: scale(1.05);
+    }
+
+    .discord-button:hover {
+      background-color: #003B2F;
+      transform: scale(1.05);
+    }
+
+    .reviews {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .review {
+      background-color: #003921;
+      color: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      width: 320px;
+      max-width: 100%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin-bottom: 20px;
+    }
+
+    .review:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .stars {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .review-text {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    .review-author {
+      font-size: 14px;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    .links {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .link-button {
+      width: 275px;
+      max-width: 100%;
+      margin: 5px 0;
+    }
+
+    .commands {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="content">
+  <img class="brand-image" src="turtle.png" alt="Turtle Icon">
+  <h1>WorkBox</h1>
+  <h2>Leaks</h2>
+  <p>WorkBox Leaks does not upload or host any content. This website is purely a resource providing links to third-party sites which may contain various leaks. We do not control or have any involvement with the content found on these external sites. By using our links, you acknowledge that you understand and accept that WorkBox Leaks is not responsible for the content, accuracy, or legality of any information found on these third-party sites. The use of any content from linked sites is at your own risk. WorkBox Leaks does not endorse or promote the content or activities of any third-party sites.</p>
+
+  <div class="invite-buttons">
+    <a href="https://discord.com/invite/FuYehHs9QK" class="invite-button dark">
+      <img src="link.png" alt="Invite Icon">
+      Discord server
+    </a>
+    <a href="https://discord.com/invite/etGhrVmhcs" class="discord-button">
+      <img src="public.png" alt="Backup Icon">
+      BackUp server
+    </a>
+  </div>
+
+  <div class="info-box">
+    <img src="key.png" alt="Key Icon">
+    <p>ZIP password is <strong>workbox</strong></p>
+  </div>
+
+  <div class="links">
+    <a href="https://e.pcloud.link/publink/show?code=XZCecgZbxjKKBnkSWpFHhHfN9hYtVPm3CnX" class="link-button">Sophie Rain</a>
+    <a href="https://e.pcloud.link/publink/show?code=XZcbcgZ467niJN68X7KdfCFYQFEJmskysLV" class="link-button">breckie hill</a>
+    <a href="https://e.pcloud.link/publink/show?code=XZtecgZJrTPqvt7VAJWxc56gdR4NYHhLbDk" class="link-button">hannahowo</a>
+    <a href="https://e.pcloud.link/publink/show?code=XZUecgZwXdkpX1xrvzqRWXzN6r3ThoS2BKy" class="link-button">katiesigmondd</a>
+    <a
+    <a href="https://e.pcloud.link/publink/show?code=XZNecgZm2kx5n70VKBal8F3sxQHSYzo3YX7" class="link-button">pamiibb</a>
+    <a
+    
+  </div>
+
+  <div class="reviews">
+    <div class="review">
+      <p class="stars">★★★★☆</p>
+      <p class="review-text">"WorkBox Leaks is a fantastic website! it's simple to use, has no ads, and is regularly updated. Plus, it's completely free!"</p>
+      <p class="review-author">- @Anonymous</p>
+    </div>
+
+    <div class="review">
+      <p class="stars">★★★★★</p>
+      <p class="review-text">"No ads cluttering the site, and it’s updated often with the latest leaks. All of this for free, highly recommended!"</p>
+      <p class="review-author">- @Anonymous</p>
+    </div>
+
+    <div class="review">
+      <p class="stars">★★★☆☆</p>
+      <p class="review-text">"Decent site with a range of leak links. Some links may not function properly or could be outdated, but it serves its purpose. Keep an eye out for issues with certain sources."</p>
+      <p class="review-author">- @Anonymous</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
